@@ -1,0 +1,13 @@
+a { 
+	font-weight:bold; 
+	text-decoration:underline;
+} 
+
+a:hover { 
+	color:#FFEC00; 
+	font-weight:bold; 
+	text-decoration:underline; 
+}
+blockquote {
+	font-size:24px;
+}

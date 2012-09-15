@@ -1,0 +1,1 @@
+﻿package com.lemonjam.core{	import flash.display.MovieClip;		public class UriEncoder extends MovieClip	{				public function UriEncoder()		{					}				public function makeUri(value:String):String		{			var _newUri:String = value.toLowerCase();			_newUri = _newUri.replace(" ", "-");						return _newUri;		}	}}
